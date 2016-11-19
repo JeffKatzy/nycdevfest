@@ -7,6 +7,10 @@ js_object = {type: 'button', props: {name: 'my_button', id: 'create_user', class
 
 element = React.createElement('button', {name: 'myElement'})
 React.render(element, document.getElementById('content'))
+<input type="text" name="user[name]" value="bobby">
+{type: 'input', props: {name: 'user[name]', value: 'bobby'}}
+
+
 I. elements
   Represent as a javascript object
   1. How to represent html as a javascript object
