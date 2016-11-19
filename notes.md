@@ -2,7 +2,11 @@ React
   Javascript library for building user interfaces.
   allows us to represent html as javascript objects
 
-<button name="my_button" id="create_user" class="blue" >Some Text</button>
+<button name="my_button" id="create_user" class="blue" ></button>
+js_object = {type: 'button', props: {name: 'my_button', id: 'create_user', className: 'blue'}}
+
+element = React.createElement('button', {name: 'myElement'})
+React.render(element, document.getElementById('content'))
 I. elements
   Represent as a javascript object
   1. How to represent html as a javascript object
